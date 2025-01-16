@@ -4,7 +4,7 @@ print("Welcome to the homework chatbot!")
 
 # Collect the user's name and age
 name = input("What is your name? ")
-age = input("How old are you? ")
+age = input("Hello" + name +  ", how old are you? ")
 
 print(f"Hi {name}, age {age}! How can I assist you today?")
 
